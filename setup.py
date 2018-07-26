@@ -1,4 +1,7 @@
+import os
 from setuptools import setup, find_packages
+
+README = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
 
 setup(
     name='envutils',
@@ -8,5 +11,7 @@ setup(
     license='MIT',
     author='Matteo Filipponi',
     author_email='matteofilipponi@hotmail.com',
-    description='A python library to read and parse environment variables.'
+    description='A python library to read and parse environment variables.',
+    long_description=README,
+    long_description_content_type='text/markdown',
 )
