@@ -1,9 +1,9 @@
-from distutils.core import setup
+from setuptools import setup, find_packages
 
 setup(
     name='envutils',
     version='1.0.0',
-    packages=['envutils'],
+    packages=find_packages(),
     url='https://github.com/mfilippo/envutils',
     license='MIT',
     author='Matteo Filipponi',
