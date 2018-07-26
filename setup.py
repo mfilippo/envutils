@@ -1,17 +1,21 @@
-import os
-from setuptools import setup, find_packages
+import setuptools
 
-README = open(os.path.join(os.path.dirname(__file__), 'README.md')).read()
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
-setup(
-    name='envutils',
-    version='1.0.0',
-    packages=find_packages(),
-    url='https://github.com/mfilippo/envutils',
-    license='MIT',
-    author='Matteo Filipponi',
-    author_email='matteofilipponi@hotmail.com',
-    description='A python library to read and parse environment variables.',
-    long_description=README,
-    long_description_content_type='text/markdown',
+setuptools.setup(
+    name="envutils",
+    version="0.0.1",
+    author="Matteo Filipponi",
+    author_email="matteofilipponi@hotmail.com",
+    description="A python library to read and parse environment variables",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/mfilippo/envutils",
+    packages=setuptools.find_packages(),
+    classifiers=(
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ),
 )
