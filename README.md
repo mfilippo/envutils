@@ -4,7 +4,7 @@ envutils
 This python library contains some utils functions to read and parse environment variables.
 
 It can be installed with:
-```python
+```bash
 pip3 install envutils
 ```
 
