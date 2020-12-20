@@ -1,3 +1,6 @@
+
+![Build/Lint/Test](https://github.com/mfilippo/envutils/workflows/Python%20package/badge.svg)
+
 envutils
 --------
 
