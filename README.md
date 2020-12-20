@@ -1,8 +1,18 @@
 
 [![PyPI version](https://badge.fury.io/py/envutils.svg?kill_cache=1)](https://badge.fury.io/py/envutils) ![Build/Lint/Test](https://github.com/mfilippo/envutils/workflows/Python%20package/badge.svg?kill_cache=1)
 
-envutils
---------
+```text
+
+███████╗███╗   ██╗██╗   ██╗██╗   ██╗████████╗██╗██╗     ███████╗
+██╔════╝████╗  ██║██║   ██║██║   ██║╚══██╔══╝██║██║     ██╔════╝
+█████╗  ██╔██╗ ██║██║   ██║██║   ██║   ██║   ██║██║     ███████╗
+██╔══╝  ██║╚██╗██║╚██╗ ██╔╝██║   ██║   ██║   ██║██║     ╚════██║
+███████╗██║ ╚████║ ╚████╔╝ ╚██████╔╝   ██║   ██║███████╗███████║
+╚══════╝╚═╝  ╚═══╝  ╚═══╝   ╚═════╝    ╚═╝   ╚═╝╚══════╝╚══════╝
+                                                                
+```
+
+---
 
 This python library contains some utils functions to read and parse environment variables.
 
