@@ -39,7 +39,7 @@ def test_get_parsable_bool_envvar():
     value = 'True'
     os.environ[key] = value
     got = envutils.get_bool_from_environment(key, False)
-    assert got == True
+    assert got
 
 
 def test_get_nonparsable_bool_envvar():
@@ -47,4 +47,4 @@ def test_get_nonparsable_bool_envvar():
     value = 'Fasle'
     os.environ[key] = value
     got = envutils.get_bool_from_environment(key, True)
-    assert got == True
+    assert got
