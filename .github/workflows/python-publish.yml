@@ -28,7 +28,7 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
-        git commit -m "Update version"
+        git commit -m "Auto-generated: Update version"
         git push origin HEAD:master
     
     - name: Install dependencies
