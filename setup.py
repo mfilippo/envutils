@@ -3,9 +3,13 @@ import setuptools
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
+pkg_vars = {}
+with open("envutils/version.py") as fp:
+    exec(fp.read(), pkg_vars)
+
 setuptools.setup(
     name="envutils",
-    version="0.0.2",
+    version=pkg_vars["__version__"],
     author="Matteo Filipponi",
     author_email="matteofilipponi@hotmail.com",
     description="A python library to read and parse environment variables",
