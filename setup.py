@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="envutils",
-    version="0.0.1",
+    version="0.0.2",
     author="Matteo Filipponi",
     author_email="matteofilipponi@hotmail.com",
     description="A python library to read and parse environment variables",
